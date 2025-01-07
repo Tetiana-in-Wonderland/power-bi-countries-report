@@ -1,0 +1,4252 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.138.1203.0 (24.11)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"source-countries\",\"source-indicators\",\"_Measures\",\"source-landarea\",\"Indicators\",\"Countries\",\"source-metadata-population\",\"source-metadata-gdp\",\"source-metadata-gdp-per-capita\",\"Metadata\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DaxQueryView_Desktop\",\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "country": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Countries"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "country": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "country": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "nation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "country.capital_city": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Countries",
+                    "ConceptualProperty": "capitalCity"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "capital city": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "capital city": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "capitalCity": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "city": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "city": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "capital location": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "capital metropolis": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "capital municipality": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "metropolis": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "municipality": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "capital town": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "capital metropolitan": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "town": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "metropolitan": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "country.id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Countries",
+                    "ConceptualProperty": "id"
+                  }
+                },
+                "NameType": "Identifier",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "id": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "id": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "country.iso_2_code": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Countries",
+                    "ConceptualProperty": "iso2Code"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "iso 2 code": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "iso 2 code": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "iso2Code": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "2 code": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "2 code": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "iso 2 id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "2 id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "iso 2 key": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "2 key": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "country.land_area": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Countries",
+                    "ConceptualProperty": "Land Area"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "land area": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "land area": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "area": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "area": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "land region": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "land locale": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "land locality": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "land neighbourhood": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "locale": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "locality": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "neighbourhood": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "land district": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "land continent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "land field": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "country.latitude": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Countries",
+                    "ConceptualProperty": "latitude"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "latitude": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "latitude": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "leeway": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "freedom": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "autonomy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "liberty": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "opportunity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "room": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "scope": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "space": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "rope": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "position": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "country.longitude": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Countries",
+                    "ConceptualProperty": "longitude"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "longitude": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "longitude": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  }
+                ]
+              },
+              "country.name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Countries",
+                    "ConceptualProperty": "name"
+                  }
+                },
+                "NameType": "Name",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "name": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "title": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "label": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "tag": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "country.region": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Countries",
+                    "ConceptualProperty": "Region"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "region": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "region": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "province": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "district": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "section": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "zone": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "continent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "indicator": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Indicators"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "indicator": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "indicator": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "pointer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "needle": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "gage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "gauge": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "dial": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "meter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "marker": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "statistic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "sign": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "guide": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "indicator.country_code": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Indicators",
+                    "ConceptualProperty": "Country Code"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "country code": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "country code": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "country id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "country key": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "nation code": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "location code": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "indicator.indicator_value": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Indicators",
+                    "ConceptualProperty": "IndicatorValue"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "indicator value": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "indicator value": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "IndicatorValue": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "value": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "value": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "indicator assessment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "assessment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "indicator worth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "indicator price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "indicator cost": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "indicator charge": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "indicator rate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "worth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "cost": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "indicator.series_code": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Indicators",
+                    "ConceptualProperty": "Series Code"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "series code": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "series code": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "series id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "series key": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "indicator.series_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Indicators",
+                    "ConceptualProperty": "Series Name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "series name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "series name": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "series": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "series": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "series nickname": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "series title": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "series label": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "series tag": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "succession": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "progression": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "sequence": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "run": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "chain": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "string": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "indicator.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Indicators",
+                    "ConceptualProperty": "Year"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "year": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "v_Measures_measure": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "_measure": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "_measure": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "_ degree": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "_ quantity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "_ quota": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "_ extent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "_ amount": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "_ portion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "_ ration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "_ size": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "v_Measures_measure.GDP_annual_growth_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "GDP Annual Growth %"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "GDP annual growth %": {}
+                  },
+                  {
+                    "GDP annual growth %": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "gdp annual growth percentage": {
+                      "LastModified": "2025-01-06T21:24:49.904Z",
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "growth percentage": {
+                      "State": "Suggested",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "growth percentage": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "annual growth percentage": {
+                      "State": "Suggested",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "annual growth percentage": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "gdp annual growth pct": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.748
+                    }
+                  },
+                  {
+                    "gdp annual growth ratio": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "gdp annual growth measurement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "gdp annual growth calculation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "gdp annual growth fraction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "gdp annual growth proportion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "gdp annual growth part": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "gdp annual growth section": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "gdp annual growth entitlement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.489
+                    }
+                  },
+                  {
+                    "gdp annual growth take": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.474
+                    }
+                  }
+                ]
+              },
+              "v_Measures_measure.GDP_per_capita": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "GDP Per Capita"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "GDP per capita": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "GDP per capita": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  }
+                ]
+              },
+              "v_Measures_measure.gdp": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "GDP"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "gdp": {}
+                  },
+                  {
+                    "gdp": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "gross domestic product": {
+                      "LastModified": "2025-01-06T21:24:20.478Z"
+                    }
+                  },
+                  {
+                    "gross domestic product": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "economic output": {
+                      "LastModified": "2025-01-06T21:24:28.608Z"
+                    }
+                  },
+                  {
+                    "economic output": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "output": {
+                      "LastModified": "2025-01-06T21:24:41.209Z"
+                    }
+                  },
+                  {
+                    "output": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "product": {
+                      "State": "Suggested",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "product": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "domestic product": {
+                      "State": "Suggested",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "domestic product": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "gross domestic artifact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "gross domestic item": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "gross domestic merchandise": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "gross domestic produce": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "aggregate domestic product": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.657
+                    }
+                  },
+                  {
+                    "overall domestic product": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.657
+                    }
+                  },
+                  {
+                    "whole domestic product": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.657
+                    }
+                  },
+                  {
+                    "sum domestic product": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "total domestic product": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "economic production": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  }
+                ]
+              },
+              "v_Measures_measure.population": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "Population"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "population": {}
+                  },
+                  {
+                    "population": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "person": {
+                      "LastModified": "2025-01-06T21:21:45.354Z",
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "populace": {
+                      "LastModified": "2025-01-06T21:21:52.921Z",
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "human": {
+                      "LastModified": "2025-01-06T21:22:10.475Z"
+                    }
+                  },
+                  {
+                    "human": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "people": {
+                      "LastModified": "2025-01-06T21:23:21.337Z"
+                    }
+                  },
+                  {
+                    "people": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "individual": {
+                      "LastModified": "2025-01-06T21:23:07.873Z",
+                      "State": "Deleted",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "folks": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "society": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "humanoid": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "hominid": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "hominoid": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "public": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "anthropoid": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "social": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "mortal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "type": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "v_Measures_measure.selected_country": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "Selected Country"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "selected country": {}
+                  },
+                  {
+                    "selected country": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "selected location": {
+                      "LastModified": "2025-01-06T21:22:14.633Z",
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "location": {
+                      "State": "Suggested",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "location": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "selected nation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "selected locality": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "selected placement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "selected scene": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "selected venue": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "selected address": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "selected place": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "selected position": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "selected setting": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "selected site": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "v_Measures_measure.sum_indicator_value": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "SumIndicatorValue"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sum indicator value": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "sum indicator value": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "SumIndicatorValue": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "value": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "value": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "summation indicator value": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "aggregation indicator value": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "total indicator value": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "aggregate indicator value": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "amount indicator value": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "sum indicator assessment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "sum indicator worth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "sum indicator price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "sum indicator cost": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "sum indicator charge": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "v_Measures_measure.v2020_GDP2020_gdp": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "2020 GDP"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "2020 gdp": {}
+                  },
+                  {
+                    "2020 gdp": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "gross domestic product": {
+                      "LastModified": "2025-01-06T21:24:09.601Z",
+                      "State": "Deleted"
+                    }
+                  }
+                ]
+              },
+              "v_Measures_measure.v2020_GDP_Per_Capita2020_GDP_per_capita": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "2020 GDP Per Capita"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "2020 GDP per capita": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "2020 GDP per capita": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  }
+                ]
+              },
+              "v_Measures_measure.v2020_Pop_Density2020_pop_density": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "2020 Pop.Density"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "2020 pop.density": {}
+                  },
+                  {
+                    "2020 pop.density": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "2020 pop. concentration": {
+                      "LastModified": "2025-01-06T21:22:35.73Z",
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "2020 pop. compactness": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "2020 pop. attentiveness": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "2020 pop. attention": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "2020 pop. absorption": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "2020 pop. meditation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "2020 pop. awareness": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "2020 pop. solidity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "2020 pop. concreteness": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "2020 pop. deliberation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "2020 pop. thickness": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  }
+                ]
+              },
+              "v_Measures_measure.v2020_Population2020_population": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "2020 Population"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "2020 population": {}
+                  },
+                  {
+                    "2020 population": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "2020 populace": {
+                      "LastModified": "2025-01-06T21:24:31.093Z",
+                      "State": "Deleted",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "2020 person": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  }
+                ]
+              },
+              "v_Measures_measure.v_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "-"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "-": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "-": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "country_has_capital_city": {
+                "Binding": {
+                  "ConceptualEntity": "Countries"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "country.capital_city"
+                      },
+                      "Subject": {
+                        "Role": "country"
+                      }
+                    },
+                    "ID": "countries_have_capital_cities",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "country": {
+                    "Target": {
+                      "Entity": "country"
+                    }
+                  },
+                  "country.capital_city": {
+                    "Target": {
+                      "Entity": "country.capital_city"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "country_has_id": {
+                "Binding": {
+                  "ConceptualEntity": "Countries"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "country.id"
+                      },
+                      "Subject": {
+                        "Role": "country"
+                      }
+                    },
+                    "ID": "countries_have_ids",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "ids_are_names_IDs_of_countries",
+                    "Name": {
+                      "Name": {
+                        "Role": "country.id"
+                      },
+                      "Subject": {
+                        "Role": "country"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "country": {
+                    "Target": {
+                      "Entity": "country"
+                    }
+                  },
+                  "country.id": {
+                    "Target": {
+                      "Entity": "country.id"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "country_has_iso_2_code": {
+                "Binding": {
+                  "ConceptualEntity": "Countries"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "country.iso_2_code"
+                      },
+                      "Subject": {
+                        "Role": "country"
+                      }
+                    },
+                    "ID": "countries_have_iso_2_codes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "country": {
+                    "Target": {
+                      "Entity": "country"
+                    }
+                  },
+                  "country.iso_2_code": {
+                    "Target": {
+                      "Entity": "country.iso_2_code"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "country_has_latitude": {
+                "Binding": {
+                  "ConceptualEntity": "Countries"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "country.latitude"
+                      },
+                      "Subject": {
+                        "Role": "country"
+                      }
+                    },
+                    "ID": "countries_have_latitudes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "country": {
+                    "Target": {
+                      "Entity": "country"
+                    }
+                  },
+                  "country.latitude": {
+                    "Target": {
+                      "Entity": "country.latitude"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "country_has_longitude": {
+                "Binding": {
+                  "ConceptualEntity": "Countries"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "country.longitude"
+                      },
+                      "Subject": {
+                        "Role": "country"
+                      }
+                    },
+                    "ID": "countries_have_longitudes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "country": {
+                    "Target": {
+                      "Entity": "country"
+                    }
+                  },
+                  "country.longitude": {
+                    "Target": {
+                      "Entity": "country.longitude"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "country_has_name": {
+                "Binding": {
+                  "ConceptualEntity": "Countries"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "country.name"
+                      },
+                      "Subject": {
+                        "Role": "country"
+                      }
+                    },
+                    "ID": "countries_have_names",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "names_are_names_IDs_of_countries",
+                    "Name": {
+                      "Name": {
+                        "Role": "country.name"
+                      },
+                      "Subject": {
+                        "Role": "country"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "country": {
+                    "Target": {
+                      "Entity": "country"
+                    }
+                  },
+                  "country.name": {
+                    "Target": {
+                      "Entity": "country.name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "country_has_region": {
+                "Binding": {
+                  "ConceptualEntity": "Countries"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "country.region"
+                      },
+                      "Subject": {
+                        "Role": "country"
+                      }
+                    },
+                    "ID": "countries_have_regions",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "country": {
+                    "Target": {
+                      "Entity": "country"
+                    }
+                  },
+                  "country.region": {
+                    "Target": {
+                      "Entity": "country.region"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "country_has_v_Measures_measure_v2020_Pop_Density2020_pop_density": {
+                "Binding": {
+                  "ConceptualEntity": "Countries"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Measures_measure.v2020_Pop_Density2020_pop_density"
+                      },
+                      "Subject": {
+                        "Role": "country"
+                      }
+                    },
+                    "ID": "countries_have_2020_pop_density",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "country": {
+                    "Target": {
+                      "Entity": "country"
+                    }
+                  },
+                  "v_Measures_measure.v2020_Pop_Density2020_pop_density": {
+                    "Target": {
+                      "Entity": "v_Measures_measure.v2020_Pop_Density2020_pop_density"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "country_in_capital_city": {
+                "Binding": {
+                  "ConceptualEntity": "Countries"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "countries_are_in_capital_cities",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "country.capital_city"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "country"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "country": {
+                    "Target": {
+                      "Entity": "country"
+                    }
+                  },
+                  "country.capital_city": {
+                    "Target": {
+                      "Entity": "country.capital_city"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "country.capital_city"
+                  }
+                },
+                "State": "Generated"
+              },
+              "country_in_region": {
+                "Binding": {
+                  "ConceptualEntity": "Countries"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "countries_are_in_regions",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "country.region"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "country"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "country": {
+                    "Target": {
+                      "Entity": "country"
+                    }
+                  },
+                  "country.region": {
+                    "Target": {
+                      "Entity": "country.region"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "country.region"
+                  }
+                },
+                "State": "Generated"
+              },
+              "country_is_large": {
+                "Binding": {
+                  "ConceptualEntity": "Countries"
+                },
+                "Phrasings": [
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "large": {
+                            "State": "Generated"
+                          }
+                        },
+                        {
+                          "big": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Antonyms": [
+                        {
+                          "small": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Measurement": {
+                        "Role": "country.land_area"
+                      },
+                      "Subject": {
+                        "Role": "country"
+                      }
+                    },
+                    "ID": "land_area_indicates_how_large_countries_are",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "country.land_area"
+                      },
+                      "Subject": {
+                        "Role": "country"
+                      }
+                    },
+                    "ID": "countries_have_land_areas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "country": {
+                    "Target": {
+                      "Entity": "country"
+                    }
+                  },
+                  "country.land_area": {
+                    "Target": {
+                      "Entity": "country.land_area"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "indicator_has_country": {
+                "Binding": {
+                  "ConceptualEntity": "Indicators"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "country"
+                      },
+                      "Subject": {
+                        "Role": "indicator"
+                      }
+                    },
+                    "ID": "indicators_have_countries",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "indicator"
+                      },
+                      "Subject": {
+                        "Role": "country"
+                      }
+                    },
+                    "ID": "countries_have_indicators",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "country": {
+                    "Target": {
+                      "Entity": "country"
+                    }
+                  },
+                  "indicator": {
+                    "Target": {
+                      "Entity": "indicator"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "indicator_has_indicator_value": {
+                "Binding": {
+                  "ConceptualEntity": "Indicators"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "indicator.indicator_value"
+                      },
+                      "Subject": {
+                        "Role": "indicator"
+                      }
+                    },
+                    "ID": "indicators_have_indicator_values",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "indicator": {
+                    "Target": {
+                      "Entity": "indicator"
+                    }
+                  },
+                  "indicator.indicator_value": {
+                    "Target": {
+                      "Entity": "indicator.indicator_value"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "indicator_has_series_code": {
+                "Binding": {
+                  "ConceptualEntity": "Indicators"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "indicator.series_code"
+                      },
+                      "Subject": {
+                        "Role": "indicator"
+                      }
+                    },
+                    "ID": "indicators_have_series_codes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "indicator": {
+                    "Target": {
+                      "Entity": "indicator"
+                    }
+                  },
+                  "indicator.series_code": {
+                    "Target": {
+                      "Entity": "indicator.series_code"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "indicator_has_series_name": {
+                "Binding": {
+                  "ConceptualEntity": "Indicators"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "indicator.series_name"
+                      },
+                      "Subject": {
+                        "Role": "indicator"
+                      }
+                    },
+                    "ID": "indicators_have_series_names",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "indicator": {
+                    "Target": {
+                      "Entity": "indicator"
+                    }
+                  },
+                  "indicator.series_name": {
+                    "Target": {
+                      "Entity": "indicator.series_name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "indicator_has_v_Measures_measure_GDP_annual_growth_": {
+                "Binding": {
+                  "ConceptualEntity": "Indicators"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Measures_measure.GDP_annual_growth_"
+                      },
+                      "Subject": {
+                        "Role": "indicator"
+                      }
+                    },
+                    "ID": "indicators_have_GDP_annual_growth_",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "indicator": {
+                    "Target": {
+                      "Entity": "indicator"
+                    }
+                  },
+                  "v_Measures_measure.GDP_annual_growth_": {
+                    "Target": {
+                      "Entity": "v_Measures_measure.GDP_annual_growth_"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "indicator_has_v_Measures_measure_GDP_per_capita": {
+                "Binding": {
+                  "ConceptualEntity": "Indicators"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Measures_measure.GDP_per_capita"
+                      },
+                      "Subject": {
+                        "Role": "indicator"
+                      }
+                    },
+                    "ID": "indicators_have_GDP_per_capita",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "indicator": {
+                    "Target": {
+                      "Entity": "indicator"
+                    }
+                  },
+                  "v_Measures_measure.GDP_per_capita": {
+                    "Target": {
+                      "Entity": "v_Measures_measure.GDP_per_capita"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "indicator_has_v_Measures_measure_gdp": {
+                "Binding": {
+                  "ConceptualEntity": "Indicators"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Measures_measure.gdp"
+                      },
+                      "Subject": {
+                        "Role": "indicator"
+                      }
+                    },
+                    "ID": "indicators_have_gdp",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "indicator": {
+                    "Target": {
+                      "Entity": "indicator"
+                    }
+                  },
+                  "v_Measures_measure.gdp": {
+                    "Target": {
+                      "Entity": "v_Measures_measure.gdp"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "indicator_has_v_Measures_measure_population": {
+                "Binding": {
+                  "ConceptualEntity": "Indicators"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Measures_measure.population"
+                      },
+                      "Subject": {
+                        "Role": "indicator"
+                      }
+                    },
+                    "ID": "indicators_have_population",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "large": {
+                            "State": "Generated"
+                          }
+                        },
+                        {
+                          "big": {
+                            "State": "Generated"
+                          }
+                        },
+                        {
+                          "populated": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Antonyms": [
+                        {
+                          "small": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Measurement": {
+                        "Role": "v_Measures_measure.population"
+                      },
+                      "Subject": {
+                        "Role": "indicator"
+                      }
+                    },
+                    "ID": "population_indicates_how_large_indicators_are",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "indicator": {
+                    "Target": {
+                      "Entity": "indicator"
+                    }
+                  },
+                  "v_Measures_measure.population": {
+                    "Target": {
+                      "Entity": "v_Measures_measure.population"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "indicator_has_v_Measures_measure_v2020_GDP2020_gdp": {
+                "Binding": {
+                  "ConceptualEntity": "Indicators"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Measures_measure.v2020_GDP2020_gdp"
+                      },
+                      "Subject": {
+                        "Role": "indicator"
+                      }
+                    },
+                    "ID": "indicators_have_2020_gdp",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "indicator": {
+                    "Target": {
+                      "Entity": "indicator"
+                    }
+                  },
+                  "v_Measures_measure.v2020_GDP2020_gdp": {
+                    "Target": {
+                      "Entity": "v_Measures_measure.v2020_GDP2020_gdp"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "indicator_has_v_Measures_measure_v2020_GDP_Per_Capita2020_GDP_per_capita": {
+                "Binding": {
+                  "ConceptualEntity": "Indicators"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Measures_measure.v2020_GDP_Per_Capita2020_GDP_per_capita"
+                      },
+                      "Subject": {
+                        "Role": "indicator"
+                      }
+                    },
+                    "ID": "indicators_have_2020_GDP_per_capita",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "indicator": {
+                    "Target": {
+                      "Entity": "indicator"
+                    }
+                  },
+                  "v_Measures_measure.v2020_GDP_Per_Capita2020_GDP_per_capita": {
+                    "Target": {
+                      "Entity": "v_Measures_measure.v2020_GDP_Per_Capita2020_GDP_per_capita"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "indicator_has_v_Measures_measure_v2020_Pop_Density2020_pop_density": {
+                "Binding": {
+                  "ConceptualEntity": "Indicators"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Measures_measure.v2020_Pop_Density2020_pop_density"
+                      },
+                      "Subject": {
+                        "Role": "indicator"
+                      }
+                    },
+                    "ID": "indicators_have_2020_pop_density",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "indicator": {
+                    "Target": {
+                      "Entity": "indicator"
+                    }
+                  },
+                  "v_Measures_measure.v2020_Pop_Density2020_pop_density": {
+                    "Target": {
+                      "Entity": "v_Measures_measure.v2020_Pop_Density2020_pop_density"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "indicator_has_v_Measures_measure_v2020_Population2020_population": {
+                "Binding": {
+                  "ConceptualEntity": "Indicators"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Measures_measure.v2020_Population2020_population"
+                      },
+                      "Subject": {
+                        "Role": "indicator"
+                      }
+                    },
+                    "ID": "indicators_have_2020_population",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "indicator": {
+                    "Target": {
+                      "Entity": "indicator"
+                    }
+                  },
+                  "v_Measures_measure.v2020_Population2020_population": {
+                    "Target": {
+                      "Entity": "v_Measures_measure.v2020_Population2020_population"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "indicator_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "Indicators"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "indicator.year"
+                      },
+                      "Subject": {
+                        "Role": "indicator"
+                      }
+                    },
+                    "ID": "indicators_have_years",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "indicator": {
+                    "Target": {
+                      "Entity": "indicator"
+                    }
+                  },
+                  "indicator.year": {
+                    "Target": {
+                      "Entity": "indicator.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "indicator_in_country": {
+                "Binding": {
+                  "ConceptualEntity": "Indicators"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "indicators_are_in_countries",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "country"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "indicator"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "country": {
+                    "Target": {
+                      "Entity": "country"
+                    }
+                  },
+                  "indicator": {
+                    "Target": {
+                      "Entity": "indicator"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "country"
+                  }
+                },
+                "State": "Generated"
+              },
+              "indicator_indicate": {
+                "Binding": {
+                  "ConceptualEntity": "Indicators"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "indicators_indicate",
+                    "State": "Generated",
+                    "Verb": {
+                      "Subject": {
+                        "Role": "indicator"
+                      },
+                      "Verbs": [
+                        {
+                          "indicate": {
+                            "State": "Generated"
+                          }
+                        }
+                      ]
+                    },
+                    "Weight": 0.75
+                  }
+                ],
+                "Roles": {
+                  "indicator": {
+                    "Target": {
+                      "Entity": "indicator"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "v_Measures_measure_has_selected_country": {
+                "Binding": {
+                  "ConceptualEntity": "_Measures"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Measures_measure.selected_country"
+                      },
+                      "Subject": {
+                        "Role": "v_Measures_measure"
+                      }
+                    },
+                    "ID": "Phrasing_measures_have_selected_country",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Measures_measure": {
+                    "Target": {
+                      "Entity": "v_Measures_measure"
+                    }
+                  },
+                  "v_Measures_measure.selected_country": {
+                    "Target": {
+                      "Entity": "v_Measures_measure.selected_country"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "v_Measures_measure_has_v_": {
+                "Binding": {
+                  "ConceptualEntity": "_Measures"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Measures_measure.v_"
+                      },
+                      "Subject": {
+                        "Role": "v_Measures_measure"
+                      }
+                    },
+                    "ID": "Phrasing_measures_have_",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Measures_measure": {
+                    "Target": {
+                      "Entity": "v_Measures_measure"
+                    }
+                  },
+                  "v_Measures_measure.v_": {
+                    "Target": {
+                      "Entity": "v_Measures_measure.v_"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "v_Measures_measure_in_selected_country": {
+                "Binding": {
+                  "ConceptualEntity": "_Measures"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "Phrasing_measures_are_in_selected_country",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "v_Measures_measure.selected_country"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "v_Measures_measure"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Measures_measure": {
+                    "Target": {
+                      "Entity": "v_Measures_measure"
+                    }
+                  },
+                  "v_Measures_measure.selected_country": {
+                    "Target": {
+                      "Entity": "v_Measures_measure.selected_country"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "v_Measures_measure.selected_country"
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "fastCombine": true,
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "source-indicators",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = Csv.Document(File.Contents(\"C:\\Users\\User\\Documents\\Tetiana\\edx-power-bi-exercise-files\\Week 2\\countries-indicators.csv\"),[Delimiter=\",\", Columns=54, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+          "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"Column1\", type text}, {\"Column2\", type text}, {\"Column3\", type text}, {\"Column4\", type text}, {\"Column5\", type text}, {\"Column6\", type text}, {\"Column7\", type text}, {\"Column8\", type text}, {\"Column9\", type text}, {\"Column10\", type text}, {\"Column11\", type text}, {\"Column12\", type text}, {\"Column13\", type text}, {\"Column14\", type text}, {\"Column15\", type text}, {\"Column16\", type text}, {\"Column17\", type text}, {\"Column18\", type text}, {\"Column19\", type text}, {\"Column20\", type text}, {\"Column21\", type text}, {\"Column22\", type text}, {\"Column23\", type text}, {\"Column24\", type text}, {\"Column25\", type text}, {\"Column26\", type text}, {\"Column27\", type text}, {\"Column28\", type text}, {\"Column29\", type text}, {\"Column30\", type text}, {\"Column31\", type text}, {\"Column32\", type text}, {\"Column33\", type text}, {\"Column34\", type text}, {\"Column35\", type text}, {\"Column36\", type text}, {\"Column37\", type text}, {\"Column38\", type text}, {\"Column39\", type text}, {\"Column40\", type text}, {\"Column41\", type text}, {\"Column42\", type text}, {\"Column43\", type text}, {\"Column44\", type text}, {\"Column45\", type text}, {\"Column46\", type text}, {\"Column47\", type text}, {\"Column48\", type text}, {\"Column49\", type text}, {\"Column50\", type text}, {\"Column51\", type text}, {\"Column52\", type text}, {\"Column53\", type text}, {\"Column54\", type text}}),",
+          "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Changed Type\", [PromoteAllScalars=true]),",
+          "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Country Name\", type text}, {\"Country Code\", type text}, {\"Series Name\", type text}, {\"Series Code\", type text}, {\"1973 [YR1973]\", type text}, {\"1974 [YR1974]\", type text}, {\"1975 [YR1975]\", type text}, {\"1976 [YR1976]\", type text}, {\"1977 [YR1977]\", type text}, {\"1978 [YR1978]\", type text}, {\"1979 [YR1979]\", type text}, {\"1980 [YR1980]\", type text}, {\"1981 [YR1981]\", type text}, {\"1982 [YR1982]\", type text}, {\"1983 [YR1983]\", type text}, {\"1984 [YR1984]\", type text}, {\"1985 [YR1985]\", type text}, {\"1986 [YR1986]\", type text}, {\"1987 [YR1987]\", type text}, {\"1988 [YR1988]\", type text}, {\"1989 [YR1989]\", type text}, {\"1990 [YR1990]\", type text}, {\"1991 [YR1991]\", type text}, {\"1992 [YR1992]\", type text}, {\"1993 [YR1993]\", type text}, {\"1994 [YR1994]\", type text}, {\"1995 [YR1995]\", type text}, {\"1996 [YR1996]\", type text}, {\"1997 [YR1997]\", type text}, {\"1998 [YR1998]\", type text}, {\"1999 [YR1999]\", type text}, {\"2000 [YR2000]\", type text}, {\"2001 [YR2001]\", type text}, {\"2002 [YR2002]\", type text}, {\"2003 [YR2003]\", type text}, {\"2004 [YR2004]\", type text}, {\"2005 [YR2005]\", type text}, {\"2006 [YR2006]\", type text}, {\"2007 [YR2007]\", type text}, {\"2008 [YR2008]\", type text}, {\"2009 [YR2009]\", type text}, {\"2010 [YR2010]\", type text}, {\"2011 [YR2011]\", type text}, {\"2012 [YR2012]\", type text}, {\"2013 [YR2013]\", type text}, {\"2014 [YR2014]\", type text}, {\"2015 [YR2015]\", type text}, {\"2016 [YR2016]\", type text}, {\"2017 [YR2017]\", type text}, {\"2018 [YR2018]\", type text}, {\"2019 [YR2019]\", type text}, {\"2020 [YR2020]\", type text}, {\"2021 [YR2021]\", type text}, {\"2022 [YR2022]\", type text}}),",
+          "    #\"Removed Bottom Rows\" = Table.RemoveLastN(#\"Changed Type1\",5),",
+          "    #\"Removed Columns\" = Table.RemoveColumns(#\"Removed Bottom Rows\",{\"Country Name\"}),",
+          "    #\"Unpivoted Other Columns\" = Table.UnpivotOtherColumns(#\"Removed Columns\", {\"Country Code\", \"Series Name\", \"Series Code\"}, \"Attribute\", \"Value\"),",
+          "    #\"Extracted First Characters\" = Table.TransformColumns(#\"Unpivoted Other Columns\", {{\"Attribute\", each Text.Start(_, 4), type text}}),",
+          "    #\"Filtered Rows\" = Table.SelectRows(#\"Extracted First Characters\", each [Value] <> \"..\"),",
+          "    #\"Renamed Columns\" = Table.RenameColumns(#\"Filtered Rows\",{{\"Attribute\", \"Year\"}, {\"Value\", \"IndicatorValue\"}}),",
+          "    #\"Changed Type2\" = Table.TransformColumnTypes(#\"Renamed Columns\",{{\"Year\", Int64.Type}, {\"IndicatorValue\", type number}})",
+          "in",
+          "    #\"Changed Type2\""
+        ],
+        "kind": "m",
+        "lineageTag": "673dbe98-d859-4920-80e4-e1d26641f286"
+      },
+      {
+        "name": "source-countries",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = Json.Document(Web.Contents(\"https://api.worldbank.org/v2/country/all?format=JSON&per_page=500\")),",
+          "    #\"Converted to Table\" = Table.FromList(Source, Splitter.SplitByNothing(), null, null, ExtraValues.Error),",
+          "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Converted to Table\",{{\"Column1\", type any}}),",
+          "    Column1 = #\"Changed Type\"{1}[Column1],",
+          "    #\"Converted to Table1\" = Table.FromList(Column1, Splitter.SplitByNothing(), null, null, ExtraValues.Error),",
+          "    #\"Expanded Column1\" = Table.ExpandRecordColumn(#\"Converted to Table1\", \"Column1\", {\"id\", \"iso2Code\", \"name\", \"region\", \"capitalCity\", \"longitude\", \"latitude\"}, {\"Column1.id\", \"Column1.iso2Code\", \"Column1.name\", \"Column1.region\", \"Column1.capitalCity\", \"Column1.longitude\", \"Column1.latitude\"}),",
+          "    #\"Expanded Column1.region\" = Table.ExpandRecordColumn(#\"Expanded Column1\", \"Column1.region\", {\"value\"}, {\"Column1.region.value\"}),",
+          "    #\"Renamed Columns\" = Table.RenameColumns(#\"Expanded Column1.region\",{{\"Column1.region.value\", \"Region\"}, {\"Column1.capitalCity\", \"capitalCity\"}, {\"Column1.longitude\", \"longitude\"}, {\"Column1.latitude\", \"latitude\"}, {\"Column1.name\", \"name\"}, {\"Column1.id\", \"id\"}, {\"Column1.iso2Code\", \"iso2Code\"}}),",
+          "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Renamed Columns\",{{\"id\", type text}, {\"iso2Code\", type text}, {\"name\", type text}, {\"Region\", type text}, {\"capitalCity\", type text}, {\"longitude\", type number}, {\"latitude\", type number}}),",
+          "    #\"Filtered Rows\" = Table.SelectRows(#\"Changed Type1\", each [Region] <> \"Aggregates\")",
+          "in",
+          "    #\"Filtered Rows\""
+        ],
+        "kind": "m",
+        "lineageTag": "9bac78ee-fecc-404e-a8b2-6f7526844904"
+      },
+      {
+        "name": "source-landarea",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = #\"source-indicators\",",
+          "    #\"Filtered Rows\" = Table.SelectRows(Source, each ([Series Code] = \"AG.LND.TOTL.K2\")),",
+          "    #\"Filtered Rows1\" = Table.SelectRows(#\"Filtered Rows\", each [Year] = 2020),",
+          "    #\"Removed Columns\" = Table.RemoveColumns(#\"Filtered Rows1\",{\"Series Name\", \"Series Code\", \"Year\"}),",
+          "    #\"Renamed Columns\" = Table.RenameColumns(#\"Removed Columns\",{{\"IndicatorValue\", \"Land Area\"}})",
+          "in",
+          "    #\"Renamed Columns\""
+        ],
+        "kind": "m",
+        "lineageTag": "6b15e4f2-cbf0-43bd-bf04-4bcb13f56edd"
+      },
+      {
+        "name": "source-metadata-population",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = Json.Document(Web.Contents(\"https://api.worldbank.org/v2/sources/2/series/SP.POP.TOTL/metadata?format=JSON\")),",
+          "    #\"Converted to Table\" = Table.FromRecords({Source}),",
+          "    #\"Expanded source\" = Table.ExpandListColumn(#\"Converted to Table\", \"source\"),",
+          "    #\"Expanded source1\" = Table.ExpandRecordColumn(#\"Expanded source\", \"source\", {\"id\", \"name\", \"concept\"}, {\"source.id\", \"source.name\", \"source.concept\"}),",
+          "    #\"Expanded source.concept\" = Table.ExpandListColumn(#\"Expanded source1\", \"source.concept\"),",
+          "    #\"Expanded source.concept1\" = Table.ExpandRecordColumn(#\"Expanded source.concept\", \"source.concept\", {\"id\", \"variable\"}, {\"source.concept.id\", \"source.concept.variable\"}),",
+          "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Expanded source.concept1\",{{\"page\", Int64.Type}, {\"pages\", Int64.Type}, {\"per_page\", Int64.Type}, {\"total\", Int64.Type}, {\"source.id\", Int64.Type}, {\"source.name\", type text}, {\"source.concept.id\", type text}, {\"source.concept.variable\", type any}}),",
+          "    #\"Removed Other Columns\" = Table.SelectColumns(#\"Changed Type\",{\"source.concept.variable\"}),",
+          "    #\"Expanded source.concept.variable\" = Table.ExpandListColumn(#\"Removed Other Columns\", \"source.concept.variable\"),",
+          "    #\"Expanded source.concept.variable1\" = Table.ExpandRecordColumn(#\"Expanded source.concept.variable\", \"source.concept.variable\", {\"id\", \"metatype\"}, {\"source.concept.variable.id\", \"source.concept.variable.metatype\"}),",
+          "    #\"Expanded source.concept.variable.metatype\" = Table.ExpandListColumn(#\"Expanded source.concept.variable1\", \"source.concept.variable.metatype\"),",
+          "    #\"Expanded source.concept.variable.metatype1\" = Table.ExpandRecordColumn(#\"Expanded source.concept.variable.metatype\", \"source.concept.variable.metatype\", {\"id\", \"value\"}, {\"source.concept.variable.metatype.id\", \"source.concept.variable.metatype.value\"})",
+          "in",
+          "    #\"Expanded source.concept.variable.metatype1\""
+        ],
+        "kind": "m",
+        "lineageTag": "3d8dad9e-bc06-40d5-bc4e-e5e0654bee07"
+      },
+      {
+        "name": "source-metadata-gdp",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = Json.Document(Web.Contents(\"https://api.worldbank.org/v2/sources/2/series/NY.GDP.MKTP.KD/metadata?format=JSON\")),",
+          "    #\"Converted to Table\" = Table.FromRecords({Source}),",
+          "    #\"Expanded source\" = Table.ExpandListColumn(#\"Converted to Table\", \"source\"),",
+          "    #\"Expanded source1\" = Table.ExpandRecordColumn(#\"Expanded source\", \"source\", {\"id\", \"name\", \"concept\"}, {\"source.id\", \"source.name\", \"source.concept\"}),",
+          "    #\"Expanded source.concept\" = Table.ExpandListColumn(#\"Expanded source1\", \"source.concept\"),",
+          "    #\"Expanded source.concept1\" = Table.ExpandRecordColumn(#\"Expanded source.concept\", \"source.concept\", {\"id\", \"variable\"}, {\"source.concept.id\", \"source.concept.variable\"}),",
+          "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Expanded source.concept1\",{{\"page\", Int64.Type}, {\"pages\", Int64.Type}, {\"per_page\", Int64.Type}, {\"total\", Int64.Type}, {\"source.id\", Int64.Type}, {\"source.name\", type text}, {\"source.concept.id\", type text}, {\"source.concept.variable\", type any}}),",
+          "    #\"Removed Other Columns\" = Table.SelectColumns(#\"Changed Type\",{\"source.concept.variable\"}),",
+          "    #\"Expanded source.concept.variable\" = Table.ExpandListColumn(#\"Removed Other Columns\", \"source.concept.variable\"),",
+          "    #\"Expanded source.concept.variable1\" = Table.ExpandRecordColumn(#\"Expanded source.concept.variable\", \"source.concept.variable\", {\"id\", \"metatype\"}, {\"source.concept.variable.id\", \"source.concept.variable.metatype\"}),",
+          "    #\"Expanded source.concept.variable.metatype\" = Table.ExpandListColumn(#\"Expanded source.concept.variable1\", \"source.concept.variable.metatype\"),",
+          "    #\"Expanded source.concept.variable.metatype1\" = Table.ExpandRecordColumn(#\"Expanded source.concept.variable.metatype\", \"source.concept.variable.metatype\", {\"id\", \"value\"}, {\"source.concept.variable.metatype.id\", \"source.concept.variable.metatype.value\"})",
+          "in",
+          "    #\"Expanded source.concept.variable.metatype1\""
+        ],
+        "kind": "m",
+        "lineageTag": "cc43fcb4-cfd2-4716-b1ce-f4340a71f38b"
+      },
+      {
+        "name": "source-metadata-gdp-per-capita",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = Json.Document(Web.Contents(\"https://api.worldbank.org/v2/sources/2/series/NY.GDP.PCAP.KD/metadata?format=JSON\")),",
+          "    #\"Converted to Table\" = Table.FromRecords({Source}),",
+          "    #\"Expanded source\" = Table.ExpandListColumn(#\"Converted to Table\", \"source\"),",
+          "    #\"Expanded source1\" = Table.ExpandRecordColumn(#\"Expanded source\", \"source\", {\"id\", \"name\", \"concept\"}, {\"source.id\", \"source.name\", \"source.concept\"}),",
+          "    #\"Expanded source.concept\" = Table.ExpandListColumn(#\"Expanded source1\", \"source.concept\"),",
+          "    #\"Expanded source.concept1\" = Table.ExpandRecordColumn(#\"Expanded source.concept\", \"source.concept\", {\"id\", \"variable\"}, {\"source.concept.id\", \"source.concept.variable\"}),",
+          "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Expanded source.concept1\",{{\"page\", Int64.Type}, {\"pages\", Int64.Type}, {\"per_page\", Int64.Type}, {\"total\", Int64.Type}, {\"source.id\", Int64.Type}, {\"source.name\", type text}, {\"source.concept.id\", type text}, {\"source.concept.variable\", type any}}),",
+          "    #\"Removed Other Columns\" = Table.SelectColumns(#\"Changed Type\",{\"source.concept.variable\"}),",
+          "    #\"Expanded source.concept.variable\" = Table.ExpandListColumn(#\"Removed Other Columns\", \"source.concept.variable\"),",
+          "    #\"Expanded source.concept.variable1\" = Table.ExpandRecordColumn(#\"Expanded source.concept.variable\", \"source.concept.variable\", {\"id\", \"metatype\"}, {\"source.concept.variable.id\", \"source.concept.variable.metatype\"}),",
+          "    #\"Expanded source.concept.variable.metatype\" = Table.ExpandListColumn(#\"Expanded source.concept.variable1\", \"source.concept.variable.metatype\"),",
+          "    #\"Expanded source.concept.variable.metatype1\" = Table.ExpandRecordColumn(#\"Expanded source.concept.variable.metatype\", \"source.concept.variable.metatype\", {\"id\", \"value\"}, {\"source.concept.variable.metatype.id\", \"source.concept.variable.metatype.value\"})",
+          "in",
+          "    #\"Expanded source.concept.variable.metatype1\""
+        ],
+        "kind": "m",
+        "lineageTag": "1f37410e-8404-493b-899c-c3c1c693ae80"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "10b009e8-0a86-79b5-450f-8e019d89df0d",
+        "fromColumn": "Country Code",
+        "fromTable": "Indicators",
+        "toColumn": "id",
+        "toTable": "Countries"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "_Measures",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "-",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "bcfd5986-6e6b-4335-abf3-c48a4a08565e",
+            "sourceColumn": "-",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "41c0aaff-503f-4c80-a041-52f3d3eaf324",
+        "measures": [
+          {
+            "name": "SumIndicatorValue",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "expression": [
+              "",
+              "SUM(Indicators[IndicatorValue])"
+            ],
+            "isHidden": true,
+            "lineageTag": "fb49a0de-1b4c-4e70-97f2-7402ae2c83ff"
+          },
+          {
+            "name": "Population",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [SumIndicatorValue], ",
+              "    Indicators[Series Code] = \"SP.POP.TOTL\"",
+              ")"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "11322296-fa46-4ae2-8b08-14dac5f63ab3"
+          },
+          {
+            "name": "GDP",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [SumIndicatorValue], ",
+              "    Indicators[Series Code] = \"NY.GDP.MKTP.KD\"",
+              ")"
+            ],
+            "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+            "lineageTag": "a628f0ea-a658-41f1-9424-6ba80d62c9c9"
+          },
+          {
+            "name": "GDP Per Capita",
+            "expression": [
+              "",
+              "DIVIDE([GDP], [Population], 0)"
+            ],
+            "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+            "lineageTag": "91ca623d-c11a-478e-93fd-2019b2137589"
+          },
+          {
+            "name": "2020 GDP",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDecimal\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "CALCULATE([GDP], Indicators[Year] = 2020) "
+            ],
+            "formatString": "0",
+            "lineageTag": "608a0267-b13f-4a95-b8a2-2a058902cc1c"
+          },
+          {
+            "name": "2020 Population",
+            "expression": [
+              "",
+              "CALCULATE([Population], Indicators[Year] = 2020)"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "2903558c-02a0-4973-aff1-c5a0fb79365a"
+          },
+          {
+            "name": "2020 GDP Per Capita",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDecimal\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [GDP Per Capita], ",
+              "    Indicators[Year] = 2020",
+              ")"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "847dad3f-c139-4e53-bd3f-aa08b86bec2a"
+          },
+          {
+            "name": "2020 Pop.Density",
+            "expression": [
+              "",
+              "DIVIDE(",
+              "    [2020 Population], ",
+              "    SUM(Countries[Land Area]), ",
+              "    0",
+              ")"
+            ],
+            "formatString": "0.0",
+            "lineageTag": "98deee05-25e3-4d14-b99b-68ec03c3757b"
+          },
+          {
+            "name": "GDP Annual Growth %",
+            "expression": [
+              "",
+              "/*",
+              "Description: calculates the annual GDP growth of a given",
+              "country by country by comparing the current year`s GDP value",
+              "to the previous years`, finding the difference, and using that to calculate % growth from one year to next.",
+              "",
+              "Change tracking: ",
+              "Jan 6, 2024: Version 1",
+              "Jan 7, 2024: Tetiana added comments",
+              "*/",
+              "//get the current year of analysis",
+              "var CurrentYear = SELECTEDVALUE(Indicators[Year])",
+              "//get GDP value of current year",
+              "var CurrentYearGDP = CALCULATE([GDP], Indicators[Year] = CurrentYear)",
+              "//get GDP value of previous year",
+              "var PrevYearGDP = CALCULATE([GDP], Indicators[Year] = CurrentYear - 1)",
+              "//calculate difference between current year and previous year GDP",
+              "var Diff = CurrentYearGDP - PrevYearGDP",
+              "//calculate annual growth rate",
+              "var GrowthRate = DIVIDE(Diff, PrevYearGDP, 0)",
+              "return",
+              "GrowthRate"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "cc119e02-e831-4374-be53-d1cc9fbbbc1b"
+          },
+          {
+            "name": "Selected Country",
+            "expression": "SELECTEDVALUE(Countries[name])",
+            "lineageTag": "1eed0784-6e2b-4487-aa9f-c2ad75b9f4e9"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "_Measures",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i44FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#\"-\" = _t]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"-\", type text}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Indicators",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Country Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "61ec64ed-3e6d-4bfa-9f0b-f2830842499a",
+            "sourceColumn": "Country Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Series Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "09b6cee3-12eb-4b81-a524-23c9c138a5ee",
+            "sourceColumn": "Series Name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Series Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7035106c-f1b2-479c-a82f-a7627330beaa",
+            "sourceColumn": "Series Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "6692dc19-ec24-47d3-8963-47e95899980b",
+            "sourceColumn": "Year",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "IndicatorValue",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "694e865e-2ee3-437a-936e-63f73f83db02",
+            "sourceColumn": "IndicatorValue",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "141e6b81-b5a4-428a-998e-c6baf1ece577",
+        "partitions": [
+          {
+            "name": "Indicators",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = #\"source-indicators\",",
+                "    #\"Filtered Rows\" = Table.SelectRows(Source, each [Series Code] <> \"AG.LND.TOTL.K2\")",
+                "in",
+                "    #\"Filtered Rows\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Countries",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6d427044-3866-437d-aa9d-8cb448fb9427",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "iso2Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f64d8f0b-75ea-4fd3-b041-32a24cc088e5",
+            "sourceColumn": "iso2Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9bb9fbf4-14ee-4665-8e54-76cfd4568375",
+            "sourceColumn": "name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Region",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "fecafcc1-12be-49fa-ae65-6247dfa941b5",
+            "sourceColumn": "Region",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "capitalCity",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9bb09cc0-b3e9-4171-a423-a326703e3135",
+            "sourceColumn": "capitalCity",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "longitude",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "8b4c9cb6-7510-464a-99d4-5edc9a381e36",
+            "sourceColumn": "longitude",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "latitude",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "9bee866a-770a-4545-9ea8-ce6245a61fc4",
+            "sourceColumn": "latitude",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Land Area",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "11b5cd91-4efe-4d51-b4b2-fb70e025eb6b",
+            "sourceColumn": "Land Area",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "201e64cc-6f14-472a-ad12-506462ee0de1",
+        "partitions": [
+          {
+            "name": "Countries",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Table.NestedJoin(#\"source-countries\", {\"id\"}, #\"source-landarea\", {\"Country Code\"}, \"Land Area by Country (2020)\", JoinKind.Inner),",
+                "    #\"Expanded Land Area by Country (2020)\" = Table.ExpandTableColumn(Source, \"Land Area by Country (2020)\", {\"Land Area\"}, {\"Land Area\"})",
+                "in",
+                "    #\"Expanded Land Area by Country (2020)\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Metadata",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Series",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "76f2c1dd-b2d1-425b-87c3-342bdf4a99cc",
+            "sourceColumn": "Series",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Metadata",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "bac4a907-48aa-4995-8181-975244de8244",
+            "sourceColumn": "Metadata",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Metadata Value",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e6b84e14-fdfe-41b6-902c-69b4e8cc832f",
+            "sourceColumn": "Metadata Value",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "5d193ccf-5985-4de4-93f9-83516f027e50",
+        "partitions": [
+          {
+            "name": "Metadata",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Table.Combine({#\"source-metadata-population\", #\"source-metadata-gdp\", #\"source-metadata-gdp-per-capita\"}),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"source.concept.variable.id\", type text}, {\"source.concept.variable.metatype.id\", type text}, {\"source.concept.variable.metatype.value\", type text}}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Changed Type\",{{\"source.concept.variable.id\", \"Series\"}, {\"source.concept.variable.metatype.id\", \"Metadata\"}, {\"source.concept.variable.metatype.value\", \"Metadata Value\"}})",
+                "in",
+                "    #\"Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

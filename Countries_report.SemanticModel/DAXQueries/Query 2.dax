@@ -1,0 +1,20 @@
+DEFINE
+	VAR __DS0FilterTable = 
+		TREATAS({"Netherlands"}, 'Countries'[name])
+
+	VAR __DS0Core = 
+		SUMMARIZECOLUMNS(
+			'Indicators'[Year],
+			__DS0FilterTable,
+			"GDP_Annual_Growth__", '_Measures'[GDP Annual Growth %],
+			"GDP", '_Measures'[GDP]
+		)
+
+	VAR __DS0BodyLimited = 
+		SAMPLE(3502, __DS0Core, 'Indicators'[Year], 1)
+
+EVALUATE
+	__DS0BodyLimited
+
+ORDER BY
+	'Indicators'[Year]
